@@ -5,7 +5,7 @@ import os
 import dataframe_image as dfi
 
 
-bot = telebot.TeleBot("6698520377:AAG1ISwFr5v0SWF0R-DgOUrbqiCe7rs_3wU")
+bot = telebot.TeleBot("os.environ['token']")
 url = "https://openwater-os.secure-platform.com/societypetroleumengineers/prefill?emailOrUserId="
 
 state = "0"
